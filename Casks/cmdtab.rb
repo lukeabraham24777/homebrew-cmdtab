@@ -7,7 +7,6 @@ cask "cmdtab" do
   desc "Switcher where apps and individual browser tabs are peers in one list"
   homepage "https://www.cmd-tab.com/"
 
-  auto_updates true
   depends_on macos: ">= :tahoe"
 
   app "CmdTab.app"
